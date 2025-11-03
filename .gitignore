@@ -1,5 +1,22 @@
-**/.gradle/**
-**/build/**
-**/.DS_Store
-**/.idea/**
-**/bin/**
+# IDE/build system
+.gradle/
+build/
+.idea/
+bin/
+
+# Godot cache/import
+.import/
+.export/
+.godot/
+mono/
+*.import
+*.tmp
+*.godot
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.backup
+*.old
